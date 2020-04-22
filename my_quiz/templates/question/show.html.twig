@@ -1,19 +1,30 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Question : {{ question }}{% endblock %}
+{% block title %}Question{% endblock %}
+
 {% block body %}
-<h1>{{ question }}</h1>
+    <h1>Question</h1>
 
-{#Ceci est un commentaire#}
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ question.id }}</td>
+            </tr>
+            <tr>
+                <th>Id_categorie</th>
+                <td>{{ question.idCategorie }}</td>
+            </tr>
+            <tr>
+                <th>Question</th>
+                <td>{{ question.question }}</td>
+            </tr>
+        </tbody>
+    </table>
 
-<div> notre question ici</div>
+    <a href="{{ path('question_index') }}">back to list</a>
 
-<h2>Reponses({{ reponses|length }})</h2>
+    <a href="{{ path('question_edit', {'id': question.id}) }}">edit</a>
 
-<ul>
-    {% for reponse in reponses  %}
-        <li>{{ reponse }}</li>
-    {% endfor %}
-</ul>
-
+    {{ include('question/_delete_form.html.twig') }}
 {% endblock %}
