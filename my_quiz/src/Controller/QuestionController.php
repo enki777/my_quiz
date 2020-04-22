@@ -4,10 +4,11 @@
 namespace App\Controller;
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class QuestionController
+class QuestionController extends AbstractController
 {
     /**
      * @Route("/")
@@ -20,9 +21,21 @@ class QuestionController
      * @Route("quizz/questions/{noam}")
      */
     public function show($noam){
-        return new Response(sprintf(
-            'Page pour afficher le questionnaire "%s" !',
-            $noam 
-        ));
+
+        $reponses = [
+            'ceci est la premiere reponse',
+            'ceci est la deuxieme reponse',
+            'ceci est la toisieme reponse',
+
+        ];
+
+        return $this->render('question/show.html.twig', [
+            'question' => ucwords(str_replace('-', ' ', $noam)),
+            'reponses' => $reponses,
+        ]);
+//        return new Response(sprintf(
+//            'Page pour afficher le questionnaire "%s" !',
+//            $noam
+//        ));
     }
 }
