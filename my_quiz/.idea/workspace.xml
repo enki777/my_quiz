@@ -171,7 +171,7 @@
       <updated>1587491981652</updated>
       <workItem from="1587491983627" duration="220000" />
       <workItem from="1587492208800" duration="586000" />
-      <workItem from="1587492815275" duration="6443000" />
+      <workItem from="1587492815275" duration="10519000" />
     </task>
     <servers />
   </component>
@@ -206,5 +206,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587575829996" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/templates/base.html.twig</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
