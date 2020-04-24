@@ -157,7 +157,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,7 +172,10 @@
       <workItem from="1587491983627" duration="220000" />
       <workItem from="1587492208800" duration="586000" />
       <workItem from="1587492815275" duration="10680000" />
-      <workItem from="1587587407447" duration="304000" />
+      <workItem from="1587587407447" duration="699000" />
+      <workItem from="1587588172899" duration="110000" />
+      <workItem from="1587633449290" duration="4382000" />
+      <workItem from="1587698125088" duration="234000" />
     </task>
     <servers />
   </component>
@@ -200,10 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="242" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587493164848" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1587492881787">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1587635180691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587492881787" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1587635180691" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1587575829996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
